@@ -1,0 +1,35 @@
+.headline {
+    /* height: 40%; */
+    background-color: rgb(232,235,234);
+    display: flex;
+    flex-direction: row;
+}
+
+.headlineText {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 8% 0% 0% 7%;
+}
+
+.text-headline {
+    font-size: 120%;
+    padding-bottom: 7%;
+    font-weight: 900;
+}
+
+.text-content {
+    padding-right: 13%;
+    font-size: 80%;
+}
+
+.headlineCarosel {
+    flex: 6.5;
+    max-height: 100%;
+}
+
+.headlineImg {
+    float: right;
+    width: 100%;
+    max-height: 100%;
+}

@@ -1,0 +1,37 @@
+.collapsible {
+    /* background-image: linear-gradient(to right, #636973, #60636c); */
+    color: #eee7e7;
+}
+
+.collapsibleHeader {
+    height: 80px;
+    /* border-bottom: 1px solid #c4bebe; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.collapsible-number {
+    flex:1;
+    font-size: 500%;
+    padding-left: 7%;
+}
+
+.collapsible-accordionHeader {
+    flex:11;
+    font-size: 150%;
+    letter-spacing: 2px;
+}
+
+.collapsible-carrot {
+    flex:1;
+}
+
+
+.collapsibleChild {
+    border-top: 1px solid #c4bebe;
+    padding: 3% 17.5% 3% 14%;
+    font-size: 82%;
+}
+
+

@@ -1,0 +1,57 @@
+.bottomBar {
+    height: 12%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0% 5% 0% 6%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 80%;
+    color: rgb(171,174,178);
+}
+
+.bottomBar-logo {
+    flex: 1;
+    height: 100%;
+}
+
+.bottomBar-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.bottomBar-terms {
+    flex: 2.5;
+    display: flex;
+    flex-direction: row;
+}
+
+.bottomBar-termsItem {
+    flex:1;
+}
+
+.bottomBar-conditions {
+    flex: 1.5;
+}
+
+.bottomBar-links {
+    flex: 1;
+    height: 30%;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 57%;
+    float: right;
+}
+
+.link {
+    flex:1;
+    border: 1px solid white;
+    background-color: rgb(43,44,49);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
